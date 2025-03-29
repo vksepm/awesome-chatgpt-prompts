@@ -7,3 +7,5 @@ github_pages:
   branch: "main"
 
 repository: f/awesome-chatgpt-prompts
+
+baseurl: "/awesome-chatgpt-prompts"
