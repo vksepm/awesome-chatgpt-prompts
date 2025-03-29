@@ -1604,3 +1604,43 @@ input:checked + .slider:before {
 .dark-mode .grok-mode-option:hover {
     background: rgba(16, 185, 129, 0.2);
 }
+
+.platform-tag {
+    background: rgba(16, 185, 129, 0.1); /* Accent background */
+    color: var(--accent-color); /* Accent text color */
+    font-size: 0.8rem; /* Font size */
+    font-weight: normal; /* Remove bold font */
+    padding: 4px 8px; /* Padding for spacing */
+    border-radius: 9999px; /* Fully rounded corners */
+    display: inline-flex; /* Inline-flex for alignment */
+    align-items: center; /* Center align text */
+    justify-content: center; /* Center align text */
+    text-transform: capitalize; /* Change to title case */
+    transition: background-color 0.2s ease, color 0.2s ease; /* Smooth hover effect */
+    height: 20px; /* Updated height */
+}
+
+.platform-tag:hover {
+    background: rgba(16, 185, 129, 0.2); /* Darker background on hover */
+    color: var(--accent-color-hover); /* Hover text color */
+}
+
+button.platform-tag {
+    background: rgba(16, 185, 129, 0.1); /* Accent background */
+    color: var(--accent-color); /* Accent text color */
+    font-size: 0.8rem; /* Font size */
+    font-weight: normal; /* Remove bold font */
+    padding: 4px 8px; /* Padding for spacing */
+    border-radius: 9999px; /* Fully rounded corners */
+    display: inline-flex; /* Inline-flex for alignment */
+    align-items: center; /* Center align text */
+    justify-content: center; /* Center align text */
+    text-transform: capitalize; /* Change to title case */
+    transition: background-color 0.2s ease, color 0.2s ease; /* Smooth hover effect */
+    height: 20px; /* Updated height */
+}
+
+button.platform-tag:hover {
+    background: rgba(16, 185, 129, 0.2); /* Darker background on hover */
+    color: var(--accent-color-hover); /* Hover text color */
+}
