@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // Search functionality
 async function initializeSearch() {
   try {
-    const response = await fetch("/prompts.csv");
+    const response = await fetch("/awesome-chatgpt-prompts/prompts.csv");
     const csvText = await response.text();
     const prompts = parseCSV(csvText);
 
@@ -400,7 +400,7 @@ function filterPrompts() {
   const searchTerm = searchInput.value.toLowerCase();
 
   // Re-fetch and filter prompts
-  fetch("/prompts.csv")
+  fetch("/awesome-chatgpt-prompts/prompts.csv")
     .then((response) => response.text())
     .then((csvText) => {
       const prompts = parseCSV(csvText);
@@ -486,7 +486,7 @@ function createPromptCards() {
   promptsGrid.appendChild(contributeCard);
 
   // Fetch prompts.csv to get for_devs information
-  fetch("/prompts.csv")
+  fetch("/awesome-chatgpt-prompts/prompts.csv")
     .then((response) => response.text())
     .then((csvText) => {
       const prompts = parseCSV(csvText);
