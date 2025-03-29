@@ -6,4 +6,5 @@ hide_extension_link: true
 hide_tone_selector: true
 subpage: true
 body_class: vibe
+permalink: /awesome-chatgpt-prompts/vibe/ # Use relative URL for proper navigation
 ---
