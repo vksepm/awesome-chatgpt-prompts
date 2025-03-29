@@ -1,0 +1,20 @@
+{
+    "name": "Jekyll site",
+    "image": "mcr.microsoft.com/devcontainers/ruby:3",
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "lts"
+        }
+    },
+    "forwardPorts": [4000],
+    "postCreateCommand": "bundle install",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "sissel.shopify-liquid",
+                "redhat.vscode-yaml",
+                "davidanson.vscode-markdownlint"
+            ]
+        }
+    }
+}
